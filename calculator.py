@@ -7,7 +7,10 @@ if(elements == '+'):
 elif(elements =='-'):
     print(sk1 - sk2)
 elif(elements == '/'):
-    print(sk1 / sk2)
+    if sk2 == 0:
+        print("Uz nulle dalit nedrikst)
+              else:
+        print(sk1 / sk2)
 elif(elements =='*'):
     print(sk1 * sk2)
 else:
